@@ -1,0 +1,24 @@
+{
+  "agents": [
+    {
+      "name": "InvestorAgent",
+      "url": "http://localhost:62233/trading_action/"
+    },
+    {
+      "name": "TradeAgent",
+      "url": "http://localhost:62234/trading_action/"
+    },
+    {
+      "name": "HedgeFundAgent",
+      "url": "http://localhost:62235/trading_action/"
+    },
+    {
+      "name": "DeepFundAgent",
+      "url": "http://localhost:62236/trading_action/"
+    },
+    {
+      "name": "Vinilla",
+      "url": "http://localhost:62237/trading_action/"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+
+# Virtual environments
+venv/
+env/
+.env
+*.env
+.venv/
+
+# Cache
+cache/
+.cache/
+*.pkl
+*.pickle
+data_cache/
+
+# Logs
+*.log
+logs/
+cron.log
+
+# Data files (large/sensitive)
+data/
+*.db
+*.sqlite
+*.sqlite3
+model_data/
+backtest_results/
+results/
+eval_results/
+charts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Lock files
+poetry.lock
+uv.lock
+Pipfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets/Config (may contain API keys)
+load_env.sh
+*.backup
+*_debug.txt
+
+# Specific to projects
+devon/api/claude_api_logs.txt
+devon/api/bitcoin_api.log
+devon/claude_api_logs.txt
+devon/short_term_memory_debug.txt
+devon/market_data_collector.log
+devon/get_daily_action.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.csv
+*.json.backup
+

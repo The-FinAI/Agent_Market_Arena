@@ -1,0 +1,23 @@
+{
+  "models": [
+    {
+      "name": "claude-sonnet-4-20250514",
+      "chat_model_inference_engine": "anthropic",
+      "chat_endpoint": "https://api.anthropic.com/v1/messages",
+      "chat_system_message": "You are Claude, a helpful AI assistant."
+    },
+    {
+      "name": "gpt-4.1",
+      "chat_model_inference_engine": "openai",
+      "chat_endpoint": "https://api.openai.com/v1/chat/completions",
+      "chat_system_message": "You are a helpful assistant."
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "chat_model_inference_engine": "gemini",
+      "chat_endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+      "chat_system_message": "You are a helpful AI assistant."
+    }
+  ]
+}
+

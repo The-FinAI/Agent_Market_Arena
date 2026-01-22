@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Results and outputs (mounted as volumes)
+results/
+backtest_results/
+charts/
+cache/
+
+# Data files (mounted as volumes)
+data/
+
+# Logs
+*.log
+# Exclude all .txt files except requirements_agent.txt
+*.txt
+!requirements_agent.txt
+claude_api_logs.txt
+short_term_memory_debug.txt
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Other
+.DS_Store
+*.pkl
+*.pickle
+model_data/
+scripts/
+
+# Large files that are not needed
+*.png
+*.csv
+*.json.bak
+*.backup
+
